@@ -1,0 +1,22 @@
+{
+  "Podcasts": [
+    {
+      "name": "Alirio Canal Ta Gravando",
+      "data": "Seg - 2/10",
+      "podcast": "flow podcast",
+      "infos": [{ "canais": "canais", "votos": 0 }]
+    },
+    {
+      "name": 1,
+      "data": "Terça",
+      "podcast": "podpa",
+      "infos": [{ "canais": "https://youtube.com", "votos": 0 }]
+    },
+    {
+      "name": 1,
+      "data": "Quarta",
+      "podcast": "flw",
+      "infos": [{ "canais": "canais", "votos": 0 }]
+    }
+  ]
+}

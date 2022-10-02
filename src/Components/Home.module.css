@@ -1,0 +1,38 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 15% 70% 13%;
+  height: 100vh;
+  gap: 1rem;
+}
+.frameCentral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+.frameLeft,
+.frameRight{
+  padding-top: 4rem;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #f1f1f1;
+}
+
+.adsTopo{
+  height: 5rem;
+  width: 100%;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
+.btnFiltro{
+  display: none;
+}
+@media(max-width: 720px){
+  .frameLeft,
+  .frameRight{
+    display: none;
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,13 @@
+.footer{
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  height: 2rem;
+  box-shadow: 0 -10px 10px -5px rgba(115,115,115,0.2);;
+}
+
+.footer p {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-image: linear-gradient(to right top, #f2ecc8, #f8e8cb, #fce5cf, #fce2d5, #f9e1da, #f9dad8, #f7d3d9, #f2cddc, #e7c1e3, #ceb9ee, #a4b6f8, #5fb5fb);
+}
