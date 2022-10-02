@@ -47,6 +47,7 @@ export const Filtros = () => {
           <div className={styles.optionsContainer}>
             {diasDaSemana.map((dia) => (
               <button
+                key={dia}
                 className={styles.btnFiltro}
                 value={dia}
                 onClick={handleClick}

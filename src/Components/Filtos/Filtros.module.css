@@ -77,12 +77,13 @@ button:active:after {
     transform: none;
   }
   .optionsContainer{
+    width: 120px;
     display: flex;
     flex-direction: column; 
     z-index: 200;
     position: absolute;
     top: 15.6rem;
-    right: 14.55rem;
+    right: 21rem;
     opacity: 0;
     transform: translateY(-20px);
     animation: animeDown 0.2s forwards;
@@ -107,23 +108,18 @@ button:active:after {
     }
   }
 
-  @media(max-width:1024px) {
+
+  @media(min-width:721px) {
     .optionsContainer{
-      right: 16.9%;
+          right: 16.65%;
+    }
+    }
+  @media(min-width:1024px) {
+    .optionsContainer{
+          right: 17.65%;
     }
   }
 
-
-  @media(max-width:896px) {
-    .optionsContainer{
-      right:9.4rem;
-    }
-  }
-   @media(max-width:851px) {
-    .optionsContainer{
-      right:8.75rem;
-    }
-  }
    @media(max-width:720px) {
     .optionsContainer{
       right: 5%;
