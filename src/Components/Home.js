@@ -31,7 +31,9 @@ export const Home = () => {
           )}
         </div>
         <Filtros />
-        <Svg className={styles.Svg} />
+        <div className={styles.icon}>
+          <Svg className={styles.Svg} />
+        </div>
         <Table />
       </div>
       <div className={styles.frameRight}>

@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5rem;
+  margin-top: 5rem;
 }
 .frameLeft,
 .frameRight{
@@ -36,14 +36,7 @@ display: none;
   display: none;
 }
 @media(max-width: 720px){
-  .Svg{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: -15px;
-    height: 5%;
-    fill: violet;
-  }
+
   .frameLeft,
   .frameRight{
     display: none;
@@ -51,6 +44,17 @@ display: none;
   .wrapper{
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .Svg{
+    display: block;
+    margin-top: 10px;
+    fill: violet;
+  }
+  .icon{
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5%;
   }
 }
 
