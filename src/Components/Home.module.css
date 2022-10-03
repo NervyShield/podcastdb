@@ -18,6 +18,15 @@
 }
 .Img{
   height: 82px;
+  
+}
+.Svg{
+
+  margin-top: 10px;
+  margin-bottom: -15px;
+  height: 5%;
+  fill: violet;
+  
 }
 .adsTopo{
   height: 5rem;

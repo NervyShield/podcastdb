@@ -47,17 +47,12 @@ button:active:after {
   transition: 0s
 }
 
-
-
-
   button{
     height: 40px;
      border-radius: 0px;
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
-  .filterOption{
-  
-  }
+
   .filterOptionOpen{
     display: block;
   }
@@ -82,7 +77,7 @@ button:active:after {
     flex-direction: column; 
     z-index: 200;
     position: absolute;
-    top: 14.55rem;
+    top: 14.50rem;
     right: 21rem;
     opacity: 0;
     transform: translateY(-20px);

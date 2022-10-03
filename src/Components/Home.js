@@ -4,6 +4,7 @@ import { Table } from './Table/Table';
 import styles from './Home.module.css';
 import { Ads } from './Ads';
 import { Context } from '../Context';
+import { ReactComponent as Svg } from '../Assets/turn-mobile.svg';
 
 export const Home = () => {
   const { isMobile } = React.useContext(Context);
@@ -30,6 +31,7 @@ export const Home = () => {
           )}
         </div>
         <Filtros />
+        {isMobile && <Svg className={styles.Svg} />}
         <Table />
       </div>
       <div className={styles.frameRight}>

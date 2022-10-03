@@ -5,19 +5,20 @@ export const Context = React.createContext();
 export const UserStorage = ({ children }) => {
   const [data, setData] = React.useState(null);
   let [podcasts, setPodcasts] = React.useState(null);
-  const [isMobile, setIsMobile] = React.useState(false);
-
-  const handleResize = () => {
-    if (window.innerWidth < 720) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  };
+  const [isMobile, setIsMobile] = React.useState(true);
 
   React.useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 720) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
     window.addEventListener('resize', handleResize);
+  });
 
+  React.useEffect(() => {
     async function fetchPodcasts() {
       const options = {
         method: 'GET',
