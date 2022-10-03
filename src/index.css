@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-
+min-height: 100vh;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1;
 	background-image: linear-gradient(to right bottom, #f2ecc8, #f5e4c3, #f7dcc1, #f7d4c1, #f4cdc2, #f4c5c3, #f2bec7, #ecb8cd, #e0b2da, #c7b0ea, #9fb2f7, #5fb5fb);

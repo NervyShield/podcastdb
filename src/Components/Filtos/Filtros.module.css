@@ -106,12 +106,12 @@ button:active:after {
 
   @media(min-width:721px) {
     .optionsContainer{
-          right: 16.65%;
+          right: 16.40%;
     }
     }
   @media(min-width:1024px) {
     .optionsContainer{
-          right: 17.65%;
+          right: 17.45%;
     }
   }
 
