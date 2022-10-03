@@ -11,7 +11,13 @@ export const Home = () => {
         <Ads />
       </div>
       <div className={styles.frameCentral}>
-        <div className={styles.adsTopo}>Adstop</div>
+        <div className={styles.adsTopo}>
+          <img
+            className={styles.Img}
+            src="https://i.imgur.com/AXzqSgl.jpg"
+            alt="propaganda topo"
+          />
+        </div>
         <Filtros />
         <Table />
       </div>

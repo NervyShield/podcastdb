@@ -16,12 +16,14 @@
   border-left: 1px solid #fff;
   border-right: 1px solid #f1f1f1;
 }
-
+.Img{
+  height: 82px;
+}
 .adsTopo{
   height: 5rem;
-  width: 100%;
-  border: 1px solid white;
-  margin-bottom: 1rem;
+  width: 90%;
+
+
 }
 .btnFiltro{
   display: none;
@@ -34,5 +36,11 @@
   .wrapper{
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 719px) {
+  .Img{
+    display: none;
   }
 }
