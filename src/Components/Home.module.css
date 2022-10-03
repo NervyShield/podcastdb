@@ -22,12 +22,10 @@
 }
 .Svg{
 
-  margin-top: 10px;
-  margin-bottom: -15px;
-  height: 5%;
-  fill: violet;
+display: none;
   
 }
+
 .adsTopo{
   height: 5rem;
   width: 100%;
@@ -38,6 +36,14 @@
   display: none;
 }
 @media(max-width: 720px){
+  .Svg{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    height: 5%;
+    fill: violet;
+  }
   .frameLeft,
   .frameRight{
     display: none;

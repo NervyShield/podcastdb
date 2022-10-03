@@ -31,7 +31,7 @@ export const Home = () => {
           )}
         </div>
         <Filtros />
-        {isMobile && <Svg className={styles.Svg} />}
+        <Svg className={styles.Svg} />
         <Table />
       </div>
       <div className={styles.frameRight}>
