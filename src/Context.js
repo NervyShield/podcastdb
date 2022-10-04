@@ -35,9 +35,6 @@ export const UserStorage = ({ children }) => {
       const json = await res.json();
       console.log(json);
       if (res && res.ok && !data) {
-        json.results = [...json.results].sort((a, b) =>
-          a.data < b.data ? -1 : 1,
-        );
         setData(json.results);
         setPodcasts(json.results);
       }

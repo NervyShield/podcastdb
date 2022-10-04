@@ -16,19 +16,27 @@ tr:nth-child(even){
 }
 th{
   font-weight: bold;
+    border-bottom: 1px solid #333;
 }
 
 td, th {
   padding-top: 1rem;
   padding-bottom: 1rem; 
+}
 
+.buttonTh{
+  height: 2rem;
+  width: 2rem;
+  background-image: none;
+  border: none;
+  background: transparent;
+  box-shadow: none;
 }
-th { 
-  border-bottom: 1px solid #333;
-}
+
 .mobileExpand{
   display: none;
 }
+
 @media(max-width: 40rem){
   .table {
     margin: 0rem;
