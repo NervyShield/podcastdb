@@ -17,8 +17,16 @@ export const Table = () => {
     if (filtrado && thtarget === 'name') {
       setPodcasts([...podcasts].sort((a, b) => (a.name < b.name ? -1 : 1)));
       setFiltrado(!filtrado);
+    } else if (!filtrado && thtarget === 'name') {
+      setPodcasts([...podcasts].sort((a, b) => (a.name > b.name ? -1 : 1)));
     } else if (filtrado && thtarget === 'data') {
       setPodcasts([...podcasts].sort((a, b) => (a.data < b.data ? -1 : 1)));
+    } else if (!filtrado && thtarget === 'data') {
+      setPodcasts([...podcasts].sort((a, b) => (a.data > b.data ? -1 : 1)));
+    } else if (!filtrado && thtarget === 'podcast') {
+      setPodcasts(
+        [...podcasts].sort((a, b) => (a.podcast > b.podcast ? -1 : 1)),
+      );
     } else if (filtrado && thtarget === 'podcast') {
       setPodcasts(
         [...podcasts].sort((a, b) => (a.podcast < b.podcast ? -1 : 1)),
