@@ -16,16 +16,13 @@
   flex-direction: column;
   left: 15rem;
 }
-.btnFiltro{
+
+
+.btnFiltro {
   width: 120px;
   z-index: 300;
-
-}
-
-button {
   font-weight: bold;
   position: relative;
-  width: 5rem;
   border: 1px solid #333;
   border-radius: 10%;
   padding: 0.5rem;
@@ -36,7 +33,7 @@ button {
   background-image: linear-gradient(to right top, #f2ecc8, #ffe8cf, #ffe6df, #ffe8f0, #ffecfd);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 } 
-button:after {
+.btnFiltro:after {
   content: "";
   background: #f1f1f1;
   display: block;
@@ -49,14 +46,14 @@ button:after {
   transition: all 0.8s
 }
 
-button:active:after {
+.btnFiltro:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
   transition: 0s
 }
 
-  button{
+.btnFiltro {
     height: 40px;
      border-radius: 0px;
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
