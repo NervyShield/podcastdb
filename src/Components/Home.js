@@ -10,7 +10,7 @@ export const Home = () => {
   const { isMobile } = React.useContext(Context);
 
   return (
-    <container>
+    <container className={styles.geral}>
       <div className={styles.wrapper}>
         <div className={styles.frameLeft}></div>
         <div className={styles.frameCentral}>

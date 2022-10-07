@@ -4,11 +4,15 @@
   min-height: calc(100vh);
   gap: 1rem;
 }
+
+
+
+
 .frameCentral{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 .frameLeft,
 .frameRight{
