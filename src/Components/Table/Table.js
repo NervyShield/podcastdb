@@ -3,7 +3,6 @@ import { Context } from '../../Context';
 import styles from './Table.module.css';
 import { ReactComponent as DownArrow } from '../../Assets/downarrow.svg';
 import { ReactComponent as ArrowUp } from '../../Assets/uparrow.svg';
-import { Filtros } from '../Filtos/Filtros';
 
 export const Table = () => {
   let { podcasts, setPodcasts } = React.useContext(Context);
@@ -33,26 +32,24 @@ export const Table = () => {
         [...podcasts].sort((a, b) => (a.podcast > b.podcast ? -1 : 1)),
       );
     } else {
-      setPodcasts(data);
+      setPodcasts([...podcasts]);
     }
   }
 
   if (podcasts)
     return (
       <>
-        {' '}
         <table className={`${styles.table}`}>
           <thead className={styles.thead}>
             <tr className={styles.HeadRow}>
               <th>
+                {' '}
                 Convidado
                 <button
                   className={styles.buttonTh}
                   value="name"
                   onClick={Ordenador}
-                >
-                  <DownArrow />
-                </button>
+                ></button>
               </th>
               <th>
                 Data
@@ -60,9 +57,7 @@ export const Table = () => {
                   className={styles.buttonTh}
                   value="data"
                   onClick={Ordenador}
-                >
-                  <DownArrow />
-                </button>
+                ></button>
               </th>
               <th>
                 {' '}
@@ -71,9 +66,7 @@ export const Table = () => {
                   className={styles.buttonTh}
                   value="podcast"
                   onClick={Ordenador}
-                >
-                  <DownArrow />
-                </button>
+                ></button>
               </th>
             </tr>
           </thead>

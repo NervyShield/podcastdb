@@ -27,12 +27,16 @@ td, th {
 }
 
 .buttonTh{
-  height: 22px;
-  width: 22px;
-  background-image: none;
+  z-index: 200;
+  height: 25px;
+  width: 25px;
+  background-image: url("../../Assets/downarrow.svg");
   border: none;
   background: transparent;
   box-shadow: none;
+}
+.buttonTh::after{
+  content: url('../../Assets/downarrow.svg');
 }
 
 .mobileExpand{
