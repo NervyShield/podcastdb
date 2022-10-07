@@ -1,8 +1,8 @@
 .wrapper{
   display: grid;
-  grid-template-columns: 15% 70% 13%;
+  grid-template-columns: 90% 10%;
   min-height: calc(100vh);
-  gap: 1rem;
+ 
 }
 
 
