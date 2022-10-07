@@ -3,6 +3,7 @@ import { Context } from '../../Context';
 import styles from './Table.module.css';
 import { ReactComponent as DownArrow } from '../../Assets/downarrow.svg';
 import { ReactComponent as ArrowUp } from '../../Assets/uparrow.svg';
+import { Filtros } from '../Filtos/Filtros';
 
 export const Table = () => {
   let { podcasts, setPodcasts } = React.useContext(Context);
@@ -39,6 +40,7 @@ export const Table = () => {
   if (podcasts)
     return (
       <>
+        {' '}
         <table className={`${styles.table}`}>
           <thead className={styles.thead}>
             <tr className={styles.HeadRow}>
