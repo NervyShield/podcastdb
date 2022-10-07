@@ -16,6 +16,7 @@ tr:nth-child(even){
 
 }
 th{
+  min-width: 120px;
   font-weight: bold;
     border-bottom: 1px solid #333;
 }
@@ -26,8 +27,8 @@ td, th {
 }
 
 .buttonTh{
-  height: 2rem;
-  width: 2rem;
+  height: 22px;
+  width: 22px;
   background-image: none;
   border: none;
   background: transparent;
