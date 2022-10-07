@@ -23,13 +23,13 @@ export const Table = () => {
       setPodcasts([...podcasts].sort((a, b) => (a.data < b.data ? -1 : 1)));
     } else if (!filtrado && thtarget === 'data') {
       setPodcasts([...podcasts].sort((a, b) => (a.data > b.data ? -1 : 1)));
-    } else if (!filtrado && thtarget === 'podcast') {
-      setPodcasts(
-        [...podcasts].sort((a, b) => (a.podcast > b.podcast ? -1 : 1)),
-      );
     } else if (filtrado && thtarget === 'podcast') {
       setPodcasts(
         [...podcasts].sort((a, b) => (a.podcast < b.podcast ? -1 : 1)),
+      );
+    } else if (!filtrado && thtarget === 'podcast') {
+      setPodcasts(
+        [...podcasts].sort((a, b) => (a.podcast > b.podcast ? -1 : 1)),
       );
     } else {
       setPodcasts(data);
