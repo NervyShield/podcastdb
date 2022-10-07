@@ -7,6 +7,11 @@
 
 }
 
+
+.filtrosBox{
+  display: flex;
+  flex-direction: column;
+}
 .btnFiltro{
   width: 120px;
   z-index: 300;
@@ -76,9 +81,7 @@ button:active:after {
     display: flex;
     flex-direction: column; 
     z-index: 200;
-    position: absolute;
-    top: 14.50rem;
-    right: 21rem;
+
     opacity: 0;
     transform: translateY(-20px);
     animation: animeDown 0.2s forwards;
@@ -104,19 +107,3 @@ button:active:after {
   }
 
 
-  @media(min-width:721px) {
-    .optionsContainer{
-          right: 16.40%;
-    }
-    }
-  @media(min-width:1024px) {
-    .optionsContainer{
-          right: 17.65%;
-    }
-  }
-
-   @media(max-width:720px) {
-    .optionsContainer{
-      right: 5%;
-    }
-  }

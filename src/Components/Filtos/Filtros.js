@@ -37,27 +37,29 @@ export const Filtros = () => {
   return (
     <div className={styles.filtros}>
       <Input />
-      <button className={styles.btnFiltro} onClick={openFilter}>
-        Filtrar por dia
-      </button>
+      <div className={styles.filtrosBox}>
+        <button className={styles.btnFiltro} onClick={openFilter}>
+          Filtrar por dia
+        </button>
 
-      {filterOpen && (
-        <>
-          <div onClick={cliqueFora} className={styles.modalContainer}></div>
-          <div className={styles.optionsContainer}>
-            {diasDaSemana.map((dia) => (
-              <button
-                key={dia}
-                className={styles.btnFiltro}
-                value={dia}
-                onClick={handleClick}
-              >
-                {dia}
-              </button>
-            ))}
-          </div>
-        </>
-      )}
+        {filterOpen && (
+          <>
+            <div onClick={cliqueFora} className={styles.modalContainer}></div>
+            <div className={styles.optionsContainer}>
+              {diasDaSemana.map((dia) => (
+                <button
+                  key={dia}
+                  className={styles.btnFiltro}
+                  value={dia}
+                  onClick={handleClick}
+                >
+                  {dia}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 };
