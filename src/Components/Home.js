@@ -11,7 +11,6 @@ export const Home = () => {
 
   return (
     <container>
-      <div className="containerPropaganda"></div>
       <div className={styles.wrapper}>
         <div className={styles.frameLeft}></div>
         <div className={styles.frameCentral}>
