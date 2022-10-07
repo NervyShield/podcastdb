@@ -11,9 +11,7 @@ export const Home = () => {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.frameLeft}>
-        <Ads />
-      </div>
+      <div className={styles.frameLeft}></div>
       <div className={styles.frameCentral}>
         <div className={styles.adsTopo}>
           {isMobile ? (
@@ -36,9 +34,7 @@ export const Home = () => {
         </div>
         <Table />
       </div>
-      <div className={styles.frameRight}>
-        <Ads />
-      </div>
+      <div className={styles.frameRight}></div>
     </div>
   );
 };
