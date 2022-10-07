@@ -75,8 +75,6 @@ export const Table = () => {
                   <DownArrow />
                 </button>
               </th>
-              <th className={styles.subRow}> Canais</th>
-              <th className={styles.mobileExpand}></th>
             </tr>
           </thead>
           <tbody>

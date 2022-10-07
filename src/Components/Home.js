@@ -13,6 +13,9 @@ export const Home = () => {
   return (
     <container className={styles.geral}>
       <div className={styles.wrapper}>
+        <div className={styles.frameRight}>
+          <AdsVertical />
+        </div>
         <div className={styles.frameCentral}>
           <Filtros />
           <AdsHorizontal />
