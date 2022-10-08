@@ -12,11 +12,15 @@ export const Home = () => {
 
   return (
     <div className={styles.geral}>
-      {' '}
+      <div className={styles.ads}>
+        {' '}
+        <AdsHorizontal />
+      </div>
+
       <div className={styles.wrapper}>
         <div className={styles.frameCentral}>
           <Filtros />
-          <AdsHorizontal />
+
           <div className={styles.icon}>
             <Svg className={styles.Svg} />
           </div>
