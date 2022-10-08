@@ -37,16 +37,16 @@ td, th {
 }
 .buttonTh::after{
   content: url('../../Assets/downarrow.svg');
+  cursor:pointer;
 }
 
 .mobileExpand{
   display: none;
 }
 
-@media(max-width: 40rem){
-  .table {
-    margin: 0rem;
-width: 98%;
+@media(max-width: 720px){
+  .table{
+    margin-left: 2.8rem;
   }
   .subRow{
     display: none;

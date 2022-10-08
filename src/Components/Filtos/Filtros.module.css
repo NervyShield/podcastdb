@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 2rem;
-  width: 100%;
+    width: 100%;
 
 }
 
@@ -116,8 +116,11 @@
     }
   }
   @media (min-width:801px){
+    .filtros{
+      width: 90%;
+    }
     .filtrosBox{
-      left: 66%;
+      left: 76%;
     }
   }
   @media only screen and (min-width: 1200px) {
