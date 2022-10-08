@@ -7,7 +7,7 @@ import { DestaquesPage } from './Components/DestaquesPage/DestaquesPage';
 import { UserStorage } from './Context';
 function App() {
   return (
-    <main>
+    <div>
       <BrowserRouter>
         <UserStorage>
           <Navbar />
@@ -18,7 +18,7 @@ function App() {
           <Footer />
         </UserStorage>
       </BrowserRouter>
-    </main>
+    </div>
   );
 }
 
