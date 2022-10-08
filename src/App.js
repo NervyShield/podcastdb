@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './Components/Home';
 import { DestaquesPage } from './Components/DestaquesPage/DestaquesPage';
 import { UserStorage } from './Context';
+import { Privacidade } from './Components/Privacidade/Privacidade';
 function App() {
   return (
     <div className="container">
@@ -13,6 +14,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="privacidade" element={<Privacidade />} />
             <Route path="destaques" element={<DestaquesPage />} />
           </Routes>
           <Footer />
