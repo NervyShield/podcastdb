@@ -38,49 +38,47 @@ export const Table = () => {
 
   if (podcasts)
     return (
-      <>
-        <table className={`${styles.table}`}>
-          <thead className={styles.thead}>
-            <tr className={styles.HeadRow}>
-              <th>
-                {' '}
-                Convidado
-                <button
-                  className={styles.buttonTh}
-                  value="name"
-                  onClick={Ordenador}
-                ></button>
-              </th>
-              <th>
-                Data
-                <button
-                  className={styles.buttonTh}
-                  value="data"
-                  onClick={Ordenador}
-                ></button>
-              </th>
-              <th>
-                {' '}
-                Podcast
-                <button
-                  className={styles.buttonTh}
-                  value="podcast"
-                  onClick={Ordenador}
-                ></button>
-              </th>
+      <table className={`${styles.table}`}>
+        <thead className={styles.thead}>
+          <tr className={styles.HeadRow}>
+            <th>
+              {' '}
+              Convidado
+              <button
+                className={styles.buttonTh}
+                value="name"
+                onClick={Ordenador}
+              ></button>
+            </th>
+            <th>
+              Data
+              <button
+                className={styles.buttonTh}
+                value="data"
+                onClick={Ordenador}
+              ></button>
+            </th>
+            <th>
+              {' '}
+              Podcast
+              <button
+                className={styles.buttonTh}
+                value="podcast"
+                onClick={Ordenador}
+              ></button>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {podcasts.map((podcast) => (
+            <tr key={podcast.objectId} className={styles.tableRow}>
+              <td>{podcast.name}</td>
+              <td>{podcast.data}</td>
+              <td>{podcast.podcast}</td>
+              <td className={styles.mobileExpand}></td>
             </tr>
-          </thead>
-          <tbody>
-            {podcasts.map((podcast) => (
-              <tr key={podcast.objectId} className={styles.tableRow}>
-                <td>{podcast.name}</td>
-                <td>{podcast.data}</td>
-                <td>{podcast.podcast}</td>
-                <td className={styles.mobileExpand}></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </>
+          ))}
+        </tbody>
+      </table>
     );
 };

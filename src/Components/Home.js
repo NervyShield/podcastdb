@@ -21,9 +21,9 @@ export const Home = () => {
         <div className={styles.frameCentral}>
           <Filtros />
 
-          <div className={styles.icon}>
+          <span className={styles.icon}>
             <Svg className={styles.Svg} />
-          </div>
+          </span>
           <Table />
         </div>
         <div className={styles.frameRight}>

@@ -4,7 +4,6 @@
   min-height: 100vh;
   justify-content: center;
   width: 100%;
- gap: 0.5%;
 }
 
 .ads{
@@ -51,16 +50,14 @@ display: none;
     display: none;
   }
   .wrapper{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
+    width: 100%;
   }
   .frameCentral{
-    width: 90% ;
+    width: 100%;
   }
 
-  .table{
-    width: 50%;
-  }
   .Svg{
     display: block;
     margin-top: 10px;

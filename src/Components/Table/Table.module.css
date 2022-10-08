@@ -1,6 +1,6 @@
 .table {
   position: relative;
-  width: 95%;
+  width: 90%;
 margin-top: 2rem;
 margin-bottom: 40px;
  background-color: #fffdd0;
@@ -46,7 +46,10 @@ td, th {
 
 @media(max-width: 720px){
   .table{
-    margin-left: 2.8rem;
+    display: table;
+width: 75%;
+overflow-x:scroll
+
   }
   .subRow{
     display: none;

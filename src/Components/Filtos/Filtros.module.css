@@ -110,9 +110,17 @@
       left:60%;
     }
   }
+  @media (max-width:400px){
+    .filtros{
+      width:100%;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 15px;
+    }
+  }
   @media (max-width:720px){
     .filtrosBox{
-      left: 60%;
+      left: 65%;
     }
   }
   @media (min-width:801px){
@@ -125,5 +133,5 @@
   }
   @media only screen and (min-width: 1200px) {
     .filtrosBox{
-    margin-left:5rem;
+
       }}
