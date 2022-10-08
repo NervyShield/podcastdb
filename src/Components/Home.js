@@ -12,7 +12,9 @@ export const Home = () => {
 
   return (
     <div className={styles.geral}>
-      <div className={styles.ads}></div>
+      <div className={styles.ads}>
+        <AdsHorizontal />
+      </div>
 
       <div className={styles.wrapper}>
         <div className={styles.frameCentral}>
@@ -23,9 +25,13 @@ export const Home = () => {
           </span>
           <Table />
         </div>
-        <div className={styles.frameRight}>
-          <AdsVertical />
-        </div>
+        {isMobile ? (
+          <div className={styles.frameRight}> </div>
+        ) : (
+          <div className={styles.frameRight}>
+            <AdsVertical />
+          </div>
+        )}
       </div>
       <div className={styles.ads}>
         <AdsHorizontal />

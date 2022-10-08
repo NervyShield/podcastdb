@@ -9,8 +9,10 @@ export const UserStorage = ({ children }) => {
 
   React.useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 720) {
+      var w = window.screen.width;
+      if (w < 721) {
         setIsMobile(true);
+        console.log(w);
       } else {
         setIsMobile(false);
       }
