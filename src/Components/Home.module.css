@@ -11,7 +11,9 @@ padding-top: 4rem;
 width: 100%;
 }
 
-
+.geral {
+  padding-top: 1rem;
+}
 .frameCentral{
   display: flex;
   flex-direction: column;
@@ -68,6 +70,9 @@ display: none;
     width: 40px;
     height: 40px;
     margin-bottom: 5%;
+  }
+  .ads{
+    height: 50px;
   }
 }
 

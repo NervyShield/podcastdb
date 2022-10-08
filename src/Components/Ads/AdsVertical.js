@@ -1,17 +1,12 @@
 import React from 'react';
+import AdSense from 'react-adsense';
 
 export const AdsVertical = () => {
   return (
-    <div>
-      <ins
-        className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-3965027486803898"
-        data-ad-slot="5376943709"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-      {(window.adsbygoogle = window.adsbygoogle || []).push({})}
-    </div>
+    <AdSense.Google
+      client="ca-pub-3965027486803898"
+      slot="5376943709"
+      style={{ display: 'block' }}
+    />
   );
 };

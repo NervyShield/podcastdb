@@ -13,7 +13,6 @@ export const Home = () => {
   return (
     <div className={styles.geral}>
       <div className={styles.ads}>
-        {' '}
         <AdsHorizontal />
       </div>
 
@@ -30,7 +29,9 @@ export const Home = () => {
           <AdsVertical />
         </div>
       </div>
-      <AdsHorizontal />
+      <div className={styles.ads}>
+        <AdsHorizontal />
+      </div>
     </div>
   );
 };
