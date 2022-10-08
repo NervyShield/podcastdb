@@ -9,11 +9,13 @@ export const AdsHorizontal = () => {
             className="adsbygoogle"
             style={{ display: 'block' }}
             data-ad-client="ca-pub-3965027486803898"
-            data-ad-slot="5752062818"
+            data-ad-slot="5376943709"
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
-          <script>(adsbygoogle = window.adsbygoogle ||[]).push();</script>
+          <script>
+            {(window.adsbygoogle = window.adsbygoogle || []).push()};
+          </script>
         </>
       }
     </div>

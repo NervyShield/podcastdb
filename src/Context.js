@@ -33,7 +33,6 @@ export const UserStorage = ({ children }) => {
       );
       if (res.ok);
       const json = await res.json();
-      console.log(json);
       if (res && res.ok && !data) {
         json.results = [...json.results].sort((a, b) =>
           a.data < b.data ? -1 : 1,

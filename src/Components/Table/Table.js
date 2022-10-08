@@ -72,16 +72,11 @@ export const Table = () => {
           </thead>
           <tbody>
             {podcasts.map((podcast) => (
-              <tr className={styles.tableRow}>
+              <tr key={podcast.objectId} className={styles.tableRow}>
                 <td>{podcast.name}</td>
                 <td>{podcast.data}</td>
                 <td>{podcast.podcast}</td>
                 <td className={styles.mobileExpand}></td>
-                {podcast.infos.map((info) => (
-                  <>
-                    <td className={styles.subRow}></td>
-                  </>
-                ))}
               </tr>
             ))}
           </tbody>

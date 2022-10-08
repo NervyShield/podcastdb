@@ -11,11 +11,9 @@ export const Home = () => {
   const { isMobile } = React.useContext(Context);
 
   return (
-    <container className={styles.geral}>
+    <div className={styles.geral}>
+      {' '}
       <div className={styles.wrapper}>
-        <div className={styles.frameRight}>
-          <AdsVertical />
-        </div>
         <div className={styles.frameCentral}>
           <Filtros />
           <AdsHorizontal />
@@ -23,12 +21,12 @@ export const Home = () => {
             <Svg className={styles.Svg} />
           </div>
           <Table />
-          <AdsHorizontal />
         </div>
         <div className={styles.frameRight}>
           <AdsVertical />
         </div>
       </div>
-    </container>
+      <AdsHorizontal />
+    </div>
   );
 };
