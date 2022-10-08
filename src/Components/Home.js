@@ -25,13 +25,6 @@ export const Home = () => {
           </span>
           <Table />
         </div>
-        {isMobile ? (
-          <div className={styles.frameRight}> </div>
-        ) : (
-          <div className={styles.frameRight}>
-            <AdsVertical />
-          </div>
-        )}
       </div>
       <div className={styles.ads}>
         <AdsHorizontal />
