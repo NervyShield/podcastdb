@@ -9,7 +9,6 @@ export const AdsHorizontal = () => {
       format="auto"
       responsive="true"
       layoutKey="-gw-1+2a-9x+5c"
-      style={{ height: 100 }}
     />
   );
 };

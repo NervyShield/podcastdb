@@ -12,9 +12,7 @@ export const Home = () => {
 
   return (
     <div className={styles.geral}>
-      <div className={styles.ads}>
-        <AdsHorizontal />
-      </div>
+      <div className={styles.ads}></div>
 
       <div className={styles.wrapper}>
         <div className={styles.frameCentral}>

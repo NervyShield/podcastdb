@@ -7,7 +7,7 @@ import { DestaquesPage } from './Components/DestaquesPage/DestaquesPage';
 import { UserStorage } from './Context';
 function App() {
   return (
-    <div>
+    <div className="container">
       <BrowserRouter>
         <UserStorage>
           <Navbar />
