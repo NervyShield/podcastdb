@@ -5,7 +5,7 @@ export const Context = React.createContext();
 export const UserStorage = ({ children }) => {
   const [data, setData] = React.useState(null);
   let [podcasts, setPodcasts] = React.useState(null);
-  const [isMobile, setIsMobile] = React.useState(false);
+  const [isMobile, setIsMobile] = React.useState(true);
 
   React.useEffect(() => {
     const handleResize = () => {
