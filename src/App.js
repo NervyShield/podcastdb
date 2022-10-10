@@ -6,6 +6,8 @@ import { Home } from './Components/Home';
 import { DestaquesPage } from './Components/DestaquesPage/DestaquesPage';
 import { UserStorage } from './Context';
 import { Privacidade } from './Components/Privacidade/Privacidade';
+import { Anteriores } from './Components/Anteriores/Anteriores';
+
 function App() {
   return (
     <div className="container">
@@ -14,8 +16,9 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="privacidade" element={<Privacidade />} />
+            <Route path="anteriores" element={<Anteriores />} />
             <Route path="destaques" element={<DestaquesPage />} />
+            <Route path="privacidade" element={<Privacidade />} />
           </Routes>
           <Footer />
         </UserStorage>

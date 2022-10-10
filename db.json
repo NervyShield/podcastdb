@@ -1,196 +1,563 @@
-{
-  "Podcasts": [
-    {
-      "name": "Giovana Grigio",
-      "data": "Seg 3/10 - 15:00",
-      "podcast": "Venus",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Gustavo Borges",
-      "data": "Qua 5/10 - 15:00",
-      "podcast": "Venus",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Luiza Possi",
-      "data": "Qui 6/10 - 15:00",
-      "podcast": "Venus",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Fora de Orbita",
-      "data": "Sex 7/10 - 15:00",
-      "podcast": "Venus",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Balestrin + Cariani",
-      "data": "Sex 7/10 - 19:00",
-      "podcast": "Flow",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Rodrigo Marques + Cambota",
-      "data": "Qua 5/10 - 19:00",
-      "podcast": "Flow",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Rubens Barrichelo e Otavio Mesquita",
-      "data": "Ter 4/10 - 15:00",
-      "podcast": "Flow",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Pix Show",
-      "data": "Sex 7/10 - 20:00",
-      "podcast": "Ben-yur Podcast",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Ben-yur X Show",
-      "data": "Qui 6/10 - 21:00",
-      "podcast": "Ben-yur Podcast",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Drake News",
-      "data": "Qui 6/10 - 19:30",
-      "podcast": "Ben-yur Podcast",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Marcelo Del Greco e Edi",
-      "data": "Qua 5/10 - 20:00",
-      "podcast": "Ben-yur Podcast",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "@inglesempoderado",
-      "data": "Qui 6/10 - 20:00",
-      "podcast": "Varanda Podcast",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Bob",
-      "data": "Ter 4/10 - 20:00",
-      "podcast": "Varanda Podcast",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Guto Galamba",
-      "data": "Qui 3/10 - 19:00",
-      "podcast": "Sem Groselha",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Guilherme Batilani",
-      "data": "Qui 6/10 - 19:00",
-      "podcast": "Sem Groselha",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Sagat",
-      "data": "Ter 4/10 - 19:00",
-      "podcast": "NaSacada",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Felipe Amorim",
-      "data": "Qui 6/10 - 18:00",
-      "podcast": "PodDelas",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Daniele e Dayane Bezerra",
-      "data": "Qua 5/10 - 18:00",
-      "podcast": "PodDelas",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Iza",
-      "data": "Ter 4/10 - 18:00",
-      "podcast": "PodDelas",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "MC Davi e Menor da VG",
-      "data": "Seg 3/10 - 19:00",
-      "podcast": "PodPah",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "MC Hariel e MC Don Juan",
-      "data": "Ter 4/10 - 14:00",
-      "podcast": "PodPah",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "MC Marks e MC Magalo",
-      "data": "Qua 5/10 - 19:00",
-      "podcast": "PodPah",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "MC Ryan MC iG",
-      "data": "Qui 6/10 - 19:00",
-      "podcast": "PodPah",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "MC Livinho e MC Pedrinho",
-      "data": "Sex 3/10 - 14:00",
-      "podcast": "PodPah",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Paulo Mathias, Joel Pinheiro e Oliver Stuenkel",
-      "data": "Seg 3/10 - 19:00",
-      "podcast": "Inteligência Ltda",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Paulo Pires",
-      "data": "Ter 4/10 - 14:00",
-      "podcast": "Inteligência Ltda",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Bruna Surfistinha",
-      "data": "Ter 3/10 - 19:00",
-      "podcast": "Inteligência Ltda",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Danilo Gentili, Diogo Portugal, Oscar Filho",
-      "data": "Qua 5/10 - 21:00",
-      "podcast": "Inteligência Ltda",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Herois e cultura nerd",
-      "data": "Qui 6/10 - 14:00",
-      "podcast": "Inteligência Ltda",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Sergio Sacani e Roberta Duarte",
-      "data": "Qui 6/10 - 19:00",
-      "podcast": "Inteligência Ltda",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": "Indio Behn e Dra. Rosangela",
-      "data": "Sex 7/10 - 14:00",
-      "podcast": "Inteligência Ltda",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    },
-    {
-      "name": 1,
-      "data": "Quarta",
-      "podcast": "flw",
-      "infos": [{ "canais": "canais", "votos": 0 }]
-    }
-  ]
-}
+[
+  {
+    "name": "BRKSEdu",
+    "data": "Seg 10/10 - 19:00",
+    "podcast": "PodePah",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Titi Vidal e Isabel Mueller Astrolôgia",
+    "data": "Ter 11/10 - 19:00",
+    "podcast": "PodePah",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Especial Copa do Mundo",
+    "data": "Qua 12/10 - 14:00",
+    "podcast": "PodePah",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Especial Episódio 500",
+    "data": "Qui 13/10 - 19:00",
+    "podcast": "PodePah",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Marcos Castro + Wendel Bezerra",
+    "data": "Seg 10/10 - 19:00",
+    "podcast": "Flow",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Mauricio Meireles e Vilela",
+    "data": "Qua 12/10 - 14:00",
+    "podcast": "Flow",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Primo Rico",
+    "data": "Qui 14/10 - 19:00",
+    "podcast": "Flow",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Carol Biazin",
+    "data": "Ter 11/10 - 18:00",
+    "podcast": "PodDepas",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "MC Mirella + Stefani Bays",
+    "data": "Qui 13/10 - 18:00",
+    "podcast": "PodDepas",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Pamela e João Victor",
+    "data": "Seg 10/10 - 15:00",
+    "podcast": "Venus",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Rizia Cerqueira",
+    "data": "Ter 11/10 - 15:00",
+    "podcast": "Venus",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Extra Venus",
+    "data": "Qua 12/10 - 15:00",
+    "podcast": "Venus",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Malvino Salvador",
+    "data": "Sex 14/10 - 15:00",
+    "podcast": "Venus",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Jorlan + Itinho",
+    "data": "Seg 10/10 - 18:00",
+    "podcast": "Ironberg Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Ramon e Zancanelli",
+    "data": "Ter 11/10 - 18:00",
+    "podcast": "Ironberg Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Johan Schatz",
+    "data": "Qua 12/10 - 19:00",
+    "podcast": "Ironberg Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Um Português",
+    "data": "Seg 10/10 - 11:00",
+    "podcast": "Achismos",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Teologo Victor Fontana",
+    "data": "Qui 13/10 - 11:00",
+    "podcast": "Achismos",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Bora bill e Amendoim",
+    "data": "Seg 10/10 - 14:00",
+    "podcast": "inteligência Ltda",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Guido Palomba Psiquiatra",
+    "data": "Seg 10/10 - 19:00",
+    "podcast": "inteligência Ltda",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "João Gordo",
+    "data": "Ter 11/10 - 19:00",
+    "podcast": "inteligência Ltda",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Inimigos da HP",
+    "data": "Qua 12/10 - 19:00",
+    "podcast": "inteligência Ltda",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Nanda Perim",
+    "data": "Qui 13/10 - 14:00",
+    "podcast": "inteligência Ltda",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Lea Maria, Paul e Baptista",
+    "data": "Qui 13/10 - 19:00",
+    "podcast": "inteligência Ltda",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Especial Tokien",
+    "data": "Sex 14/10 - 19:00",
+    "podcast": "inteligência Ltda",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Pix-Show",
+    "data": "Seg 10/10 - 20:00",
+    "podcast": "Ben-Yur",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Estreia Esmir Nof",
+    "data": "Qua 12/10 - 20:00",
+    "podcast": "Ben-Yur",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "André Pacitte, Ivan Freire",
+    "data": "Sex 14/10 - 20:00",
+    "podcast": "Ben-Yur",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Estreia Esmir Nof",
+    "data": "Qua 12/10 - 20:00",
+    "podcast": "Ben-Yur",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Criador da BGS",
+    "data": "Seg 10/10 - 16:00",
+    "podcast": "Flow Games",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "BZK",
+    "data": "Ter 11/10 - 15:00",
+    "podcast": "Flow Games",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Revolta",
+    "data": "Qua 12/10 - 18:00",
+    "podcast": "Flow Games",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Extra BGS",
+    "data": "Seg 10/10 - 18:00",
+    "podcast": "Flow Games",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "BRKS Edu",
+    "data": "Ter 11/10 - 17:45",
+    "podcast": "Flow Games",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Yohan Kisser",
+    "data": "Ter 11/10 - 19:00",
+    "podcast": "Amplifica",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Ulisses Rocha",
+    "data": "Qui 13/10 - 19:00",
+    "podcast": "Amplifica",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Yohan Kisser",
+    "data": "Seg 10/10 - 18:00",
+    "podcast": "Prosa Guiada",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "MC Naninha",
+    "data": "Qua 12/10 - 18:00",
+    "podcast": "Prosa Guiada",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Psicólogo Eslen Delanogare ",
+    "data": "Sex 14/10 - 20:00",
+    "podcast": "Ciência sem Fim",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Léo Maia",
+    "data": "Ter 11/10 - 17:00",
+    "podcast": "Avesso Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Resenha direto da BGS",
+    "data": "Seg 10/10 - 13:00",
+    "podcast": "Flow Sport Club",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Firula",
+    "data": "Ter 11/10 - 15:00",
+    "podcast": "Flow Sport Club",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Corinthians vs Flamengo",
+    "data": "Qua 12/10 - 20:30",
+    "podcast": "Flow Sport Club",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Resenha",
+    "data": "Qui 13/10 - 15:00",
+    "podcast": "Flow Sport Club",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Luis Felipe Freitas",
+    "data": "Sex 14/10 - 19:00",
+    "podcast": "Flow Sport Club",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Comentando NotÍcias",
+    "data": "Seg 10/10 - 19:30",
+    "podcast": "Kritike Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Caroline Marcon",
+    "data": "Ter 11/10 - 19:30",
+    "podcast": "Kritike Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Poliana Abreu",
+    "data": "Qui 13/10 - 19:30",
+    "podcast": "Kritike Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Leonardo Camillo",
+    "data": "Seg 10/10 - 20:00",
+    "podcast": "A deriva Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Thiago Almeida Instrutor de tiro",
+    "data": "Ter 11/10 - 15:00",
+    "podcast": "A deriva Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  },
+  {
+    "name": "Jefferson Laatus",
+    "data": "Qua 12/10 - 15:00",
+    "podcast": "A deriva Podcast",
+    "infos": [
+      {
+        "canais": "canais",
+        "votos": 0
+      }
+    ]
+  }
+]
