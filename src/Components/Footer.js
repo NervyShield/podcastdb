@@ -12,7 +12,7 @@ export const Footer = () => {
       <ul className={styles.nav}>
         <li>
           <p>
-            <Link to="/">Termos de uso e Privacidade </Link>
+            <Link to="privacidade">Termos de uso e Privacidade </Link>
           </p>
         </li>
         <li></li>
