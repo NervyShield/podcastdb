@@ -14,7 +14,7 @@ export const Home = () => {
   return (
     <div className={styles.geral}>
       <div className={styles.ads}></div>
-
+      {console.log(window.location.href)}
       <div className={styles.wrapper}>
         <div className={styles.frameCentral}>
           <Filtros />
