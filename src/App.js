@@ -7,6 +7,7 @@ import { DestaquesPage } from './Components/DestaquesPage/DestaquesPage';
 import { UserStorage } from './Context';
 import { Privacidade } from './Components/Privacidade/Privacidade';
 import { Anteriores } from './Components/Anteriores/Anteriores';
+import { Contato } from './Components/Contato/Contato';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="anteriores" element={<Anteriores />} />
             <Route path="destaques" element={<DestaquesPage />} />
             <Route path="privacidade" element={<Privacidade />} />
+            <Route path="contato" element={<Contato />} />
           </Routes>
           <Footer />
         </UserStorage>

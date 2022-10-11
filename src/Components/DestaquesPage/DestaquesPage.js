@@ -1,4 +1,5 @@
 import React from 'react';
+import { AdsHorizontal } from '../Ads/AdsHorizontal';
 import Styles from './DestaquesPage.module.css';
 export const DestaquesPage = () => {
   const [posts, setPosts] = React.useState(null);
@@ -28,6 +29,7 @@ export const DestaquesPage = () => {
   if (posts)
     return (
       <div className={Styles.containerDestaque}>
+        <AdsHorizontal />
         {posts.map((post) => (
           <div className={Styles.post}>
             <h1 className={Styles.titulo}>{post.titulo}</h1>
@@ -45,6 +47,7 @@ export const DestaquesPage = () => {
             <p className={Styles.conteudo}>{post.conteudo}</p>
           </div>
         ))}
+        <AdsHorizontal />
       </div>
     );
 };

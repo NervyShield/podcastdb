@@ -27,6 +27,7 @@ background-image: linear-gradient(to right top, #f2ecc8, #f8e8cb, #fce5cf, #fce2
 
 .logo a{
   text-decoration: none;
+  margin-bottom: 18px;
 }
 
 .nav{

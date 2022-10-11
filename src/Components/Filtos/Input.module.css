@@ -1,7 +1,7 @@
 .inputPesquisa{
   height: 35px;
   width: 13rem;
-  margin-left: 42rem;
+
 }
 
 
@@ -29,5 +29,5 @@ margin-left:5%;
     }}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {.inputPesquisa{
-  margin-left:15rem;
+  
     }}

@@ -6,15 +6,14 @@ import { Context } from '../Context';
 import { ReactComponent as Svg } from '../Assets/turn-mobile.svg';
 import { AdsHorizontal } from './Ads/AdsHorizontal';
 import { AdsVertical } from './Ads/AdsVertical';
+import { TableNav } from './TableNav/TableNav';
 
 export const Home = () => {
   const { isMobile } = React.useContext(Context);
 
   return (
     <div className={styles.geral}>
-      <div className={styles.ads}>
-        <AdsHorizontal />
-      </div>
+      <div className={styles.ads}></div>
 
       <div className={styles.wrapper}>
         <div className={styles.frameCentral}>
@@ -23,6 +22,7 @@ export const Home = () => {
           <span className={styles.icon}>
             <Svg className={styles.Svg} />
           </span>
+          <TableNav />
           <Table />
         </div>
       </div>

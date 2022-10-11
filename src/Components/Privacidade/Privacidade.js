@@ -1,9 +1,11 @@
 import React from 'react';
+import { AdsHorizontal } from '../Ads/AdsHorizontal';
 import styles from './Privacidade.module.css';
 
 export const Privacidade = () => {
   return (
     <div className={styles.central}>
+      <AdsHorizontal />
       <h2 className={styles.titulo}>Pol&iacute;tica Privacidade</h2>
       <p className={styles.paragrafo}>
         A sua privacidade &eacute; importante para n&oacute;s. &Eacute;

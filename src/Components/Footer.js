@@ -15,7 +15,12 @@ export const Footer = () => {
             <Link to="privacidade">Termos de uso e Privacidade </Link>
           </p>
         </li>
-        <li></li>
+        <span style={{ marginRight: '5px', marginLeft: '5px' }}>&#10035;</span>
+        <li>
+          <p>
+            <Link to="contato">Entre em contato </Link>
+          </p>
+        </li>
       </ul>
     </div>
   );

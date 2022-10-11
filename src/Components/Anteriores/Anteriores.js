@@ -2,6 +2,8 @@ import React from 'react';
 import { Filtros } from '../Filtos/Filtros';
 import styles from './Anteriores.module.css';
 import { Context } from '../../Context';
+import { AdsHorizontal } from '../Ads/AdsHorizontal';
+import { TableNav } from '../TableNav/TableNav';
 
 export const Anteriores = () => {
   let { podcasts, setPodcasts } = React.useContext(Context);
@@ -36,7 +38,9 @@ export const Anteriores = () => {
   if (podcasts)
     return (
       <div className={styles.container}>
+        <AdsHorizontal />
         <Filtros />
+        <TableNav />
         <table className={`${styles.table}`}>
           <thead className={styles.thead}>
             <tr className={styles.HeadRow}>
@@ -79,6 +83,7 @@ export const Anteriores = () => {
             ))}
           </tbody>
         </table>
+        <AdsHorizontal />
       </div>
     );
 };
