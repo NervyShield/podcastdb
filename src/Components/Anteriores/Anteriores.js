@@ -24,16 +24,16 @@ export const Anteriores = () => {
       );
       if (res.ok);
       const json = await res.json();
-      if (res && res.ok && !data) {
+      if (res && res.ok) {
         json.results = [...json.results].sort((a, b) =>
           a.data < b.data ? -1 : 1,
         );
-        setData(json.results);
+
         setPodcasts(json.results);
       }
     }
     fetchAnteriores();
-  }, []);
+  }, [setPodcasts]);
 
   if (podcasts)
     return (

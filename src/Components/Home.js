@@ -24,6 +24,7 @@ export const Home = () => {
           </span>
           <TableNav />
           <Table />
+          <TableNav />
         </div>
       </div>
       <div className={styles.ads}>
