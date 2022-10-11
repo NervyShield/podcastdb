@@ -5,7 +5,7 @@ import styles from './TableNav.module.css';
 export const TableNav = () => {
   return (
     <div className={styles.geral}>
-      {window.location.href === 'http://localhost:3000/' ? (
+      {window.location.href === 'https://podcastdb.com.br' ? (
         <div className={styles.container}>
           <div className={styles.linkAnteriores}>
             <Link to="anteriores">Anteriores </Link>
