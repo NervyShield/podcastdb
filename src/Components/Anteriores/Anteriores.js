@@ -39,7 +39,7 @@ export const Anteriores = () => {
     return (
       <div className={styles.container}>
         <AdsHorizontal />
-        <Filtros />
+
         <TableNav />
         <table className={`${styles.table}`}>
           <thead className={styles.thead}>
