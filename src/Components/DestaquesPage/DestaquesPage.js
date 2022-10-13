@@ -1,8 +1,10 @@
 import React from 'react';
+import { Context } from '../../Context';
 import { AdsHorizontal } from '../Ads/AdsHorizontal';
 import Styles from './DestaquesPage.module.css';
 export const DestaquesPage = () => {
   const [posts, setPosts] = React.useState(null);
+  const { isMobile } = React.useContext(Context);
 
   React.useEffect(() => {
     async function fetchPodcasts() {
@@ -29,7 +31,9 @@ export const DestaquesPage = () => {
   if (posts)
     return (
       <div className={Styles.containerDestaque}>
-        <AdsHorizontal />
+        <div className={Styles.propaganda}>
+          <AdsHorizontal />
+        </div>
         {posts.map((post) => (
           <div className={Styles.post}>
             <h1 className={Styles.titulo}>{post.titulo}</h1>
@@ -47,7 +51,9 @@ export const DestaquesPage = () => {
             <p className={Styles.conteudo}>{post.conteudo}</p>
           </div>
         ))}
-        <AdsHorizontal />
+        <div className={Styles.propaganda}>
+          <AdsHorizontal />
+        </div>
       </div>
     );
 };

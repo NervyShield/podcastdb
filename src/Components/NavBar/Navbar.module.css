@@ -1,4 +1,7 @@
 .header{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
   position: absolute;
   width: 100%;
@@ -9,6 +12,11 @@
 
 }
 
+.Span{
+  padding-left:1%;
+  padding-right: 1%;
+}
+
 .nav{
   font-family: 'Courier New', Courier, monospace;
   font-size: x-large;
@@ -17,4 +25,19 @@
   justify-content: center;
   align-items: center;
   height: 4rem;
+}
+
+.buttonNav{
+  width: 120px;
+  height: 120px;
+}
+
+@media(max-width: 720px){
+  
+.header{
+  justify-content: space-around;
+}
+.Span{
+  display: none;
+}
 }
