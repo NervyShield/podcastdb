@@ -39,8 +39,8 @@ export const DestaquesPage = () => {
             <h1 className={Styles.titulo}>{post.titulo}</h1>
             <iframe
               className={Styles.iframe}
-              width="340"
-              height="200"
+              width="auto"
+              height="auto"
               src={post.imgSrc}
               title={post.titulo}
               frameborder="0"

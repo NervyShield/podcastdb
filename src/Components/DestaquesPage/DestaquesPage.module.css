@@ -1,13 +1,12 @@
 
   .containerDestaque{
     display: grid;
-  
     grid-template-columns: 1fr 1fr 1fr ;
-    gap: 1rem;
-    align-items: center;
+    gap: 4rem 2rem;
+    align-items: flex-start;
     width: 100%;
     padding-top: 7rem;
-    padding-bottom: 40rem;
+    padding-bottom: 40rem;  
   }
   .iframe{
     width: 340px;
@@ -15,8 +14,10 @@
     margin-bottom: 4rem;
   }
 
+ 
+
   .titulo{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 1rem;
   }
